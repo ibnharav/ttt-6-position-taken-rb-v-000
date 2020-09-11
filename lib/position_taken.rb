@@ -5,6 +5,6 @@ def position_taken?(board, position)
     return false
   end
   if board[position] == "X" || "O" 
-    return TRtrueUE
+    return true
   end
 end
