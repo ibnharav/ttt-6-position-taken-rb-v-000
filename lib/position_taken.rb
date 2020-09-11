@@ -5,6 +5,6 @@ def position_taken?(board, position)
     return FALSE
   end
   if board[position] == "X" ||   board[position] == "O"
-    return true
+    return TRUE
   end
 end
